@@ -49,7 +49,6 @@ public class Main {
 		options.addOption(output);
 		
 		Option thresholdType = new Option("p", "filenamepattern", true, "file name pattern");
-		//thresholdType.setRequired(false);
 		thresholdType.setOptionalArg(true);
 		options.addOption(thresholdType);
 		
